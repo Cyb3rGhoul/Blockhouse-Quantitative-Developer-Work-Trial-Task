@@ -18,6 +18,13 @@ COMPILATION & EXECUTION
 
 3. Output is automatically saved to mbp.csv in the correct MBP format
 
+To run the code use the below commands:
+------------------------------------
+```bash
+g++ -O3 -Wall -Wextra -o reconstruction_mbo_mbp main.cpp
+./reconstruction_mbo_mbp mbo.csv
+```
+
 INPUT FORMAT (MBO - Databento Format)
 ------------------------------------
 The program expects space-separated MBO data with these columns:
